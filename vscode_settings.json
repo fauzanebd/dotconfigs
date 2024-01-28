@@ -1,0 +1,66 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.autofetch": true,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.iconTheme": "helium-icon-theme",
+
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true,
+        "go": false
+    },
+    "jupyter.askForKernelRestart": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        // "editor.wordBasedSuggestions": false
+    },
+    "cmake.configureOnOpen": true,
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": true,
+
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'liga', 'calt', 'dlig'",
+    "editor.fontVariations": true,
+    // "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontFamily": "'VictorMono Nerd Font', 'Courier New', monospace",
+    "editor.fontWeight": "bold",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.6,
+    "editor.letterSpacing": 0.6,
+
+    "terminal.integrated.fontFamily": "VictorMono Nerd Font",
+    "terminal.integrated.fontWeight": "bold",
+    "remote.SSH.remotePlatform": {
+        "10.5.0.3": "linux"
+    },
+    "sap-remote.landscape-name": "",
+    "black-formatter.showNotifications": "onError",
+    "githubPullRequests.pullBranch": "never",
+    "gitlens.graph.minimap.enabled": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.activityBar.location": "top",
+    "vscord.app.privacyMode.enable": true,
+    "workbench.editor.enablePreview": false,
+    "files.autoSave": "afterDelay",
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false
+}
