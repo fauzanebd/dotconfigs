@@ -2,4 +2,5 @@
 # oh-my-posh init pwsh --config='C:\Users\fauza\AppData\Local\Programs\oh-my-posh\themes\quick-term.omp.json' | Invoke-Expression
 
 # using starship
+$ENV:STARSHIP_CONFIG = "$HOME\configs\starship.toml"
 Invoke-Expression (&starship init powershell)
