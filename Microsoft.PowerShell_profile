@@ -1,0 +1,5 @@
+# using oh my posh
+# oh-my-posh init pwsh --config='C:\Users\fauza\AppData\Local\Programs\oh-my-posh\themes\quick-term.omp.json' | Invoke-Expression
+
+# using starship
+Invoke-Expression (&starship init powershell)
